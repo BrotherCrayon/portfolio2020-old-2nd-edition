@@ -7,9 +7,9 @@
 .card {
   flex: auto;
   max-width: 320px;
-  height: 250px;
+  max-height: 550px;
   border: solid 1px #ccc;
-  border-radius: 16px;
+  border-radius: 8px;
   margin: 24px 16px 48px 16px;
 }
 
@@ -26,9 +26,24 @@
   background-size: cover;
 }
 
-.mat-card-actions {
-    position: absolute;
-    bottom: 24px;
-    right: 24px;
+.card-text {
+  margin-bottom: 24px;
 }
 
+.mat-card-actions {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
+
+/* ON MOUSEOVER */
+.card:hover {
+  transform: scale(1.05);
+  border: solid 1px #EECD0260;
+  box-shadow: 0px 0px 3px 3px #EECD0250;
+}
+
+/* i WANT THIS TO APPLY WHEN CARD IS HOVERED, NOT THE BUTTON ITSELF */
+.mat-card-actions:hover {
+  transform: scale(0.95);
+}
