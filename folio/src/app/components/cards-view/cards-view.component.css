@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -7,10 +8,10 @@
 .card {
   flex: auto;
   max-width: 320px;
-  max-height: 550px;
+  height: 350px;
   border: solid 1px #ccc;
   border-radius: 8px;
-  margin: 24px 16px 48px 16px;
+  margin: 24px 4px 48px 4px;
 }
 
 .card-header {
@@ -46,4 +47,11 @@
 /* i WANT THIS TO APPLY WHEN CARD IS HOVERED, NOT THE BUTTON ITSELF */
 .mat-card-actions:hover {
   transform: scale(0.95);
+}
+
+@media (max-width:728px) {
+  .card {
+    max-width: max-content;
+    margin: 8px 24px 16px 24px;
+  }
 }

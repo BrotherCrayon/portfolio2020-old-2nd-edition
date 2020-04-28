@@ -6,10 +6,10 @@
       <!-- Card header -->
       <mat-card-header>
         <mat-card-title>{{ card.title }}</mat-card-title>
-        <mat-card-subtitle>Technical area?</mat-card-subtitle>
+        <mat-card-subtitle>{{ card.area }}</mat-card-subtitle>
       </mat-card-header>
       <!-- Card image -->
-      <img mat-card-image src="assets/images/placeholder.png" height="100px">
+      <img mat-card-image src={{card.img}} height="100px">
       <!-- Card body -->
       <mat-card-content>
         <p class="card-text">
