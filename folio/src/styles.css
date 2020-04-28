@@ -7,10 +7,10 @@ body {
 
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
-
+/* Scrollbar */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -30,6 +30,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #F45D01;
 }
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
