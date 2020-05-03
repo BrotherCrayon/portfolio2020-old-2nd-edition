@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 // components
 import { AppComponent } from './app.component';
@@ -20,6 +20,10 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +32,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     HeaderComponent,
     CardsViewComponent,
     CarouselComponent,
+    AboutComponent,
+    ContactComponent,
+    routingComponents,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +49,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    CarouselModule.forRoot(),
+    WavesModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
