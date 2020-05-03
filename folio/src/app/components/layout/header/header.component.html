@@ -1,0 +1,22 @@
+<mat-toolbar class="nav">
+  <!-- for smaller screen -->
+  <div class="toggleMenu">
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <div class="spacer"></div>
+  <!-- for desktop -->
+  <span id="leftside" class="logo">JFellows</span>
+  <button mat-button routerLink="/" class="menu-button">Home</button>
+  <button mat-button routerLink="/about" routerLinkActive="active" class="menu-button">About</button>
+  <button mat-button routerLink="/contact" routerLinkActive="active" class="menu-button">Contact</button>
+  <button mat-button [matMenuTriggerFor]="belowMenu" class="menu-button">Projects
+  </button>
+  <mat-menu #belowMenu="matMenu" yPosition="below">
+    <button mat-menu-item routerLink="/diss" routerLinkActive="active">Dissertation</button>
+    <button mat-menu-item routerLink="/listify" routerLinkActive="active">Listify</button>
+    <button mat-menu-item routerLink="/virtual-reality" routerLinkActive="active">Virtual Reality</button>
+    <button mat-menu-item routerLink="/serious-games" routerLinkActive="active">Serious Games</button>
+  </mat-menu>
+</mat-toolbar>
