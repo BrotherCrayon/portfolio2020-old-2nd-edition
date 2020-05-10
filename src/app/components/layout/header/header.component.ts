@@ -12,7 +12,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
  
-  public onToggleSidenav = () => {
-    this.sidenavToggle.emit();
+  public mobileViewMenu = false;
+
+  openMenu() {
+    this.mobileViewMenu = true;
+  }
+  
+  closeMenu() {
+    this.mobileViewMenu = false;
   }
 }

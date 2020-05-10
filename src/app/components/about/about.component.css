@@ -1,35 +1,51 @@
 .container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  flex: auto;
+  width: 250px;
+  height: 300px;
+  border-radius: 4px;
+  margin: 24px 4px 24px 16px;
+}
+
+.card-header {
+  text-align: center;
+  height: 50px;
+  background-color: #47464725;
+  margin: 4px;
+}
+
+.card-img {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.card-text {
+  margin-bottom: 24px;
+}
+
+.card-body {
+    width: fit-content;
+    margin: 24px 16px 24px 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display:flex;
+    flex-direction: column;
   }
   
-  .card {
-    flex: auto;
-    width: 250px;
-    height: 300px;
-    border: solid 1px #ccc;
-    border-radius: 8px;
-    margin: 24px 4px 24px 16px;
+  .card{
+    border: none;
+    width: auto;
+    height: 120px;
+    margin: 16px 32px 0 32px;
   }
-  
-  .card-header {
-    text-align: center;
-    height: 50px;
-    background-color: #47464725;
-    border-radius: 8px;
-    margin: 4px;
+
+  .card-body{
+    height: max-content;
   }
-  
-  .card-img {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  }
-  
-  .card-text {
-    margin-bottom: 24px;
-  }
-  
-  .bodyCard {
-      width: fit-content;
-      margin: 24px 16px 24px 16px;
-  }
+}

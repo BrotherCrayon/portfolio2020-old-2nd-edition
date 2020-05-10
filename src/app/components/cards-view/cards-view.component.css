@@ -9,8 +9,8 @@
   flex: auto;
   max-width: 320px;
   height: 350px;
-  border: solid 1px #ccc;
-  border-radius: 8px;
+  /* border: solid 1px #ccc; */
+  border-radius: 4px;
   margin: 24px 4px 24px 4px;
   transition: ease-out 0.6s;
 }
@@ -41,6 +41,7 @@
 .mat-raised-button {
   background-color: #F45D01;
   color: #eee;
+  font-weight: 300;
 }
 
 /* ON MOUSEOVER */
