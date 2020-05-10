@@ -1,11 +1,28 @@
 <mat-toolbar class="nav">
-  <!-- for smaller screen -->
+  <!-- for mobile view -->
   <div class="toggleMenu">
-    <button mat-icon-button (click)="onToggleSidenav()">
+    <button mat-icon-button (click)="openMenu()">
       <mat-icon>menu</mat-icon>
     </button>
   </div>
   <div class="spacer"></div>
+  <div class="mobile-view-window" *ngIf="mobileViewMenu">
+    <!-- make X a span, give it an svg -->
+    <div class="mobile-view-close" (click)="closeMenu()">X</div>
+    <div class="mobile-view-button" routerLink="/" (click)="closeMenu()">Home</div>
+      <hr class="mobile-view-line">
+    <div class="mobile-view-button" routerLink="/about" (click)="closeMenu()">About</div>
+      <hr class="mobile-view-line">
+    <div class="mobile-view-button" routerLink="/contact" (click)="closeMenu()">Contact</div>
+      <hr class="mobile-view-line">
+    <div class="mobile-view-button" [matMenuTriggerFor]="belowMenu">Projects</div>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+      <button mat-menu-item routerLink="/diss" routerLinkActive="active">Dissertation</button>
+      <button mat-menu-item routerLink="/listify" routerLinkActive="active">Listify</button>
+      <button mat-menu-item routerLink="/virtual-reality" routerLinkActive="active">Virtual Reality</button>
+      <button mat-menu-item routerLink="/serious-games" routerLinkActive="active">Serious Games</button>
+    </mat-menu>
+  </div>
   <!-- for desktop -->
   <span id="leftside" class="logo">JFellows</span>
   <button mat-button routerLink="/" class="menu-button">Home</button>

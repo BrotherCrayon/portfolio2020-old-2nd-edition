@@ -1,4 +1,5 @@
-.footer {
+.footer-container {
+    margin-top: 32px;
     position: static;
     bottom: 0;
     width: 100%;
