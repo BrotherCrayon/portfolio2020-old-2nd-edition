@@ -93,6 +93,10 @@
     align-self: flex-end;
     margin: 32px 32px 0px 0px;
   }
+
+  .mobile-view-button:hover {
+    color: rgb(255, 225, 0);
+  }
 }
 
 @media (min-width: 601px) {

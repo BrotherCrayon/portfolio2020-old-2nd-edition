@@ -1,0 +1,14 @@
+.container {
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin: 24px 24px 24px 24px;
+    align-items: center;
+}
+
+h1 {
+    color: #474647;
+}
