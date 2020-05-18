@@ -9,7 +9,7 @@ import { trigger, transition, style, animate, query, stagger, keyframes } from '
     trigger('menuAnimation', [
       transition(':enter', [
         style({ opacity: 0 }),
-        animate('0.8s ease-in', style({ opacity: 1 }))
+        animate('0.5s ease-in', style({ opacity: 1 }))
       ]),
 
       transition(':leave', [
@@ -21,10 +21,10 @@ import { trigger, transition, style, animate, query, stagger, keyframes } from '
       transition(':enter', [
         query('.mobile-view-button', style({ opacity: 0, transform: 'translateX(0)' }), { optional: true }),
 
-        query('.mobile-view-button', stagger('850ms', [
-          animate('1s 1.2s ease-in', keyframes([ //maybe 1.5s 1s ease-in
-            style({ opacity: 0, transform: 'translateX(-100px)', offset: 0 }),
-            style({ opacity: .5, transform: 'translateX(10px)', offset: 0.25 }),
+        query('.mobile-view-button', stagger('160ms', [
+          animate('0.5s 0.3s ease-in', keyframes([ //maybe 1.5s 1s ease-in
+            style({ opacity: 0, transform: 'translateX(-64px)', offset: 0 }),
+            style({ opacity: .5, transform: 'translateX(16px)', offset: 0.4 }),
             style({ opacity: 1, transform: 'translateX(0px)', offset: 1 })
           ]))]), { optional: true })
       ])
