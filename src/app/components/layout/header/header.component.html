@@ -10,8 +10,10 @@
 
   </div> -->
     <!-- make X a span, give it an svg -->
-    <div class="mobile-view-window" [@menuAnimation] [@buttonAnimation] *ngIf="mobileViewMenu">
-      <div class="mobile-view-close" (click)="closeMenu()">X</div>
+    <div class="mobile-view-window" [@menuAnimation] [@buttonAnimation] *ngIf="mobileViewMenu" matRipple>
+      <div mat-icon-button class="mobile-view-close" (click)="closeMenu()">
+        <mat-icon>close</mat-icon>
+      </div>
       <div class="mobile-view-button" routerLink="/" (click)="closeMenu()">Home</div>
       <div class="mobile-view-button" routerLink="/about" (click)="closeMenu()">About</div>
       <div class="mobile-view-button" routerLink="/contact" (click)="closeMenu()">Contact</div>
