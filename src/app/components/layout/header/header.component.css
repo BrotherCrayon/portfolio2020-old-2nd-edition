@@ -55,6 +55,13 @@
     align-self: flex-end;
   }
 
+  .sticky {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 30;
+  }
+
   /* the modal */
   .mobile-view-window {
     display: flex;
@@ -101,10 +108,18 @@
   /* close modal */
   .mobile-view-close {
     color: #EECD02;
-    width: 32px;
-    align-self: flex-end;
-    margin: 32px 32px 0px 0px;
-    
+    width: 90%;
+    height: 48px;
+    display: flex;
+    /* align-self: flex-end; */
+    align-content: flex-end;
+    margin: 16px 0px 0px 0px;
+  }
+  
+  mat-icon {
+    font-size: 2em;
+    text-align: end;
+    flex: auto;
   }
 
 }
@@ -113,19 +128,5 @@
 @media (min-width: 601px) {
   .mobile-view-window {
     display: none;
-  }
-}
-
-
-
-@keyframes slide-in {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
   }
 }
