@@ -1,4 +1,4 @@
-<mat-toolbar class="nav">
+<mat-toolbar class="nav" (scroll)="onScroll($event)" id="mobile-nav" [@scrollFade] matRipple>
   <!-- for mobile view -->
   <div class="toggleMenu">
     <button mat-icon-button (click)="openMenu()">
@@ -6,13 +6,10 @@
     </button>
   </div>
   <div class="spacer"></div>
-  <!-- <div class="mobile-view-window" *ngIf="mobileViewMenu">
-
-  </div> -->
-    <!-- make X a span, give it an svg -->
-    <div class="mobile-view-window" [@menuAnimation] [@buttonAnimation] *ngIf="mobileViewMenu" matRipple>
+    <div class="mobile-view-window" *ngIf="mobileViewMenu" 
+    [@menuAnimation] [@buttonAnimation] [@closeButtonAnimation]>
       <div mat-icon-button class="mobile-view-close" (click)="closeMenu()">
-        <mat-icon>close</mat-icon>
+        <mat-icon class="close-button">close</mat-icon>
       </div>
       <div class="mobile-view-button" routerLink="/" (click)="closeMenu()">Home</div>
       <div class="mobile-view-button" routerLink="/about" (click)="closeMenu()">About</div>
