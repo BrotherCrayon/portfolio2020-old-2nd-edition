@@ -1,0 +1,22 @@
+<!-- <div class="mobile-view-modal"> -->
+
+<div [@closeButtonAnimation]>
+    <div mat-dialog-close class="mobile-view-close">
+      <mat-icon>close</mat-icon>
+    </div>
+  </div>
+
+
+    <div class="mobile-view-modal" [@buttonAnimation]>
+      <div mat-dialog-close class="mobile-view-button" routerLink="/">Home</div>
+    <div mat-dialog-close class="mobile-view-button" routerLink="/about">About</div>
+    <div mat-dialog-close class="mobile-view-button" routerLink="/contact">Contact</div>
+    <div class="mobile-view-button" (click)="openProjectsMenu()">Projects</div>
+    <div *ngIf="mobileViewProjects">
+      <div mat-dialog-close class="mobile-view-button mvb-project" routerLink="/diss">Dissertation</div>
+      <div mat-dialog-close class="mobile-view-button mvb-project" routerLink="/listify">Listify</div>
+      <div mat-dialog-close class="mobile-view-button mvb-project" routerLink="/virtual-reality">Virtual Reality</div>
+      <div mat-dialog-close class="mobile-view-button mvb-project" routerLink="/serious-games">Serious Games</div>
+    </div>
+  </div>
+  <!-- </div> -->

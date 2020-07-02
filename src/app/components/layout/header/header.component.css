@@ -7,21 +7,27 @@
 }
 
 .logo {
-  font-family: Parisienne, cursive;
-  font-size: 32px;
-  font-weight: 600;
-  color: #eee;
-  text-shadow: 0px -1px 5px #00000050;
-  margin-right: 8px;
+  margin-right: 16px;
+  max-width: 130px;
+  -webkit-filter: drop-shadow( -1px 1px 1px rgba(0, 0, 0, .8));
+  filter: drop-shadow( -1px 1px 1px rgba(0, 0, 0, .5));
+}
+.logo:hover {
+  -webkit-filter: drop-shadow( -1.5px 1.5px 1.5px #f45E0190);
+  filter: drop-shadow( -1.5px 1.5px 1.5px #F45E0190);
 }
 
 .menu-button {
-  font-size: 14pt;
+  font-size: 16pt;
   font-weight: 300;
-  margin-left: 4px;
+  /* margin-left: 4px; */
+  height: inherit;
+  max-height: 50px;
 }
 
+/* ------------------- */
 /* --- Mobile view --- */
+/* ------------------- */
 .toggleMenu {
   display: none;
 }
@@ -29,7 +35,6 @@
 .spacer {
   display: none;
 }
-
 
 @media screen and (max-width: 600px) {
   .nav {
@@ -53,6 +58,7 @@
 
   .logo {
     align-self: flex-end;
+    width: 100px;
   }
 
   .sticky {
@@ -63,46 +69,25 @@
   }
 
   /* the modal */
-  .mobile-view-window {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    z-index: 20;
-    align-items: center;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #000000f1;
-    transition: 1s ease-in;
+  .mat-dialog-container .mobile-view-modal  {
+    background-color: lawngreen;
   }
   
-  .mobile-view-content {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    z-index: 30;
-    align-items: center;
-    width: fit-content;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
   /* modal-buttons */
   .mobile-view-button {
     font-size: 42px;
     font-weight: 200;
     color: #EECD02;
-    margin: 16px 0px 48px 0px;
+    padding: 32px 0px 32px 0px;
     border: 0;
     background-color: transparent;
+    text-align: center;
+    margin: auto;
+    width: max-content;
   }
-
-  .mobile-view-line {
-    color: #EECD02;
-    width: 300px;
-    margin-bottom: 32px;
+  .mvb-project {
+    font-size: 32px;
+    color: #F45D02;
   }
 
   /* close modal */
@@ -121,12 +106,21 @@
     text-align: end;
     flex: auto;
   }
-
 }
 
-/* desktop */
+/* -------------------- */
+/* --- Desktop view --- */
+/* -------------------- */
 @media (min-width: 601px) {
   .mobile-view-window {
     display: none;
+  }
+
+  .mat-menu-content {
+    background-color: #EECD02 !important;
+    margin: 0;
+  }
+  .mat-menu-item {
+    color: #474647;
   }
 }
