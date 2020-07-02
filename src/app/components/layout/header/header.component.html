@@ -1,34 +1,17 @@
 <mat-toolbar class="nav" (scroll)="onScroll($event)" id="mobile-nav" [@scrollFade] matRipple>
   <!-- for mobile view -->
   <div class="toggleMenu">
-    <button mat-icon-button (click)="openMenu()">
+    <button mat-icon-button (click)="openModal()">
       <mat-icon>menu</mat-icon>
     </button>
   </div>
   <div class="spacer"></div>
-    <div class="mobile-view-window" *ngIf="mobileViewMenu" 
-    [@menuAnimation] [@buttonAnimation] [@closeButtonAnimation]>
-      <div mat-icon-button class="mobile-view-close" (click)="closeMenu()">
-        <mat-icon class="close-button">close</mat-icon>
-      </div>
-      <div class="mobile-view-button" routerLink="/" (click)="closeMenu()">Home</div>
-      <div class="mobile-view-button" routerLink="/about" (click)="closeMenu()">About</div>
-      <div class="mobile-view-button" routerLink="/contact" (click)="closeMenu()">Contact</div>
-      <div class="mobile-view-button" [matMenuTriggerFor]="belowMenu">Projects</div>
-      <mat-menu #belowMenu="matMenu" yPosition="below">
-        <button mat-menu-item routerLink="/diss" routerLinkActive="active">Dissertation</button>
-        <button mat-menu-item routerLink="/listify" routerLinkActive="active">Listify</button>
-        <button mat-menu-item routerLink="/virtual-reality" routerLinkActive="active">Virtual Reality</button>
-        <button mat-menu-item routerLink="/serious-games" routerLinkActive="active">Serious Games</button>
-      </mat-menu>
-    </div>
   <!-- for desktop -->
-  <span id="leftside" class="logo">JFellows</span>
+  <img src="../../../../assets/svg/folio-logo.svg" class="logo">
   <button mat-button routerLink="/" class="menu-button">Home</button>
   <button mat-button routerLink="/about" routerLinkActive="active" class="menu-button">About</button>
   <button mat-button routerLink="/contact" routerLinkActive="active" class="menu-button">Contact</button>
-  <button mat-button [matMenuTriggerFor]="belowMenu" class="menu-button">Projects
-  </button>
+  <button mat-button [matMenuTriggerFor]="belowMenu" class="menu-button">Projects</button>
   <mat-menu #belowMenu="matMenu" yPosition="below">
     <button mat-menu-item routerLink="/diss" routerLinkActive="active">Dissertation</button>
     <button mat-menu-item routerLink="/listify" routerLinkActive="active">Listify</button>

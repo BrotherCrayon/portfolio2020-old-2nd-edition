@@ -6,7 +6,7 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 // components
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
-import { HeaderComponent } from './components/layout/header/header.component';
+import { HeaderComponent, MobileViewMenuModal } from './components/layout/header/header.component';
 import { CardsViewComponent } from './components/cards-view/cards-view.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 
@@ -20,10 +20,12 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MatExpansionModule } from '@angular/material/expansion'; 
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     ContactComponent,
     routingComponents,
     NotFoundComponent,
+    MobileViewMenuModal
   ],
   imports: [
     BrowserModule,
@@ -49,11 +52,13 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatExpansionModule,
     FlexLayoutModule,
-    CarouselModule.forRoot(),
-    WavesModule.forRoot()
+    HttpClientModule,
+    MatDialogModule
   ],
   providers: [],
+  entryComponents: [MobileViewMenuModal],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
