@@ -9,12 +9,12 @@
 .logo {
   margin-right: 16px;
   max-width: 130px;
-  -webkit-filter: drop-shadow( -0.5px 1px 1px rgba(0, 0, 0, .5));
-  filter: drop-shadow( -0.5px 1px 1px rgba(0, 0, 0, .5));
+  -webkit-filter: drop-shadow( -1px 1px 1px rgba(0, 0, 0, .8));
+  filter: drop-shadow( -1px 1px 1px rgba(0, 0, 0, .5));
 }
 .logo:hover {
-  -webkit-filter: drop-shadow( -1px 1.5px 1.5px #f45E0190);
-  filter: drop-shadow( -1px 1.5px 1.5px #F45E0190);
+  -webkit-filter: drop-shadow( -1.5px 1.5px 1.5px #f45E0190);
+  filter: drop-shadow( -1.5px 1.5px 1.5px #F45E0190);
 }
 
 .menu-button {
