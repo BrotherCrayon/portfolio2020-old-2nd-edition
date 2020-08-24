@@ -20,12 +20,14 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #F45D0140;
+  background: #f45e011a;
+  border-radius: 8px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #F45D0180;
+  border-radius: 8px;
 }
 
 /* Handle on hover */
