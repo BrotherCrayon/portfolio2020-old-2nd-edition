@@ -1,0 +1,52 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="false" [ngClass]="{hidden: !(isHandset$ | async)}"
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="(isHandset$ | async) === false" position="end">
+    <mat-toolbar>Menu <span class="spacer"></span>
+      <mat-icon (click)="drawer.toggle()">close</mat-icon>
+    </mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item (click)="drawer.toggle()" class="sidenav-button" routerLink="/">Home</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item (click)="drawer.toggle()" class="sidenav-button" routerLink="/about">About</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item (click)="drawer.toggle()" class="sidenav-button" routerLink="/contact">Contact</a>
+      <mat-divider></mat-divider>
+      <div (click)="openProjectsMenu()" class="sidenav-button" id="subtitle">Projects:</div>
+      <mat-divider></mat-divider>
+      <div *ngIf="mobileViewProjects" [@buttonAnimation]>
+        <a mat-list-item (click)="drawer.toggle()" class="sidenav-button project" routerLink="/diss">Dissertation</a>
+        <mat-divider></mat-divider>
+        <a mat-list-item (click)="drawer.toggle()" class="sidenav-button project" routerLink="/">Listify</a>
+        <mat-divider></mat-divider>
+        <a mat-list-item (click)="drawer.toggle()" class="sidenav-button project" routerLink="/">3D Modelling</a>
+        <mat-divider></mat-divider>
+        <a mat-list-item (click)="drawer.toggle()" class="sidenav-button project" routerLink="/">Virtual Reality</a>
+      </div>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <img src="../../../../assets/svg/folio-logo.svg" class="logo">
+      <span class="spacer"></span>
+      <div *ngIf="!(isHandset$ | async)">
+        <button mat-button routerLink="/" class="menu-button">Home</button>
+        <button mat-button routerLink="/about" routerLinkActive="active" class="menu-button">About</button>
+        <button mat-button routerLink="/contact" routerLinkActive="active" class="menu-button">Contact</button>
+        <button mat-button [matMenuTriggerFor]="belowMenu" class="menu-button">Projects</button>
+        <mat-menu #belowMenu="matMenu" yPosition="below">
+          <button mat-menu-item routerLink="/diss" routerLinkActive="active">Dissertation</button>
+          <button mat-menu-item routerLink="/listify" routerLinkActive="active">Listify</button>
+          <button mat-menu-item routerLink="/virtual-reality" routerLinkActive="active">Virtual Reality</button>
+          <button mat-menu-item routerLink="/serious-games" routerLinkActive="active">Serious Games</button>
+        </mat-menu>
+      </div>
+      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+    </mat-toolbar>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
