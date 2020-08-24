@@ -1,0 +1,80 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 60vw;
+  background: #eee;
+}
+
+.sidenav .mat-toolbar {
+  background: #EECD02;
+}
+
+.sidenav-button {
+  font-size: 34px;
+  font-weight: 300;
+  padding: 16px;
+  width: inherit !important;
+}
+
+.project {
+  display: flex;
+  margin-left: 32px;
+  font-size: 30px;
+}
+
+mat-list-item {
+  padding: 32px;
+}
+
+.mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 8px 16px;
+  display: flex;
+  background-color: #EECD02;
+  box-shadow: 0px 3px 5px #474647a9;
+}
+
+.hidden {
+  display: none;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.menu-button {
+  font-size: 18pt;
+  font-weight: 300;
+}
+
+/* srdfghjkl;' */
+.nav {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  background-color: #EECD02;
+  box-shadow: 0px 3px 5px #474647;
+}
+
+.logo {
+  margin-right: 16px;
+  max-width: 130px;
+  -webkit-filter: drop-shadow(-1px 1px 1px rgba(0, 0, 0, .8));
+  filter: drop-shadow(-1px 1px 1px rgba(0, 0, 0, .5));
+}
+
+.logo:hover {
+  -webkit-filter: drop-shadow(-1.5px 1.5px 1.5px #f45E0190);
+  filter: drop-shadow(-1.5px 1.5px 1.5px #F45E0190);
+}
+
+
+@media (max-width: 450px) {
+  .sidenav-button {
+    font-size: 24px;
+  }
+}

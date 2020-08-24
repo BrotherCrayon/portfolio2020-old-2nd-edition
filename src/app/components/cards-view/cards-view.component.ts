@@ -15,38 +15,39 @@ export class CardsViewComponent implements OnInit {
 
   cards = [
     {
-      title: 'Project One',
+      title: 'My Dissetation',
       area: 'Virtual Reality',
-      description: 'Some quick example text to build on the card title and make up the bulk of the card content',
+      description: 'Understanding the spatial perception difference between a real world and an accurately scaled 3d model of the room.',
       buttonText: 'Show me',
       img: 'assets/images/diss-3d-env.png'
     },
     {
-      title: 'Project Two',
-      area: 'Project area specialty, can have a short sentence.',
-      description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. '
-      + 'A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally '
-      + 'bred for hunting.',
+      title: 'Listify',
+      area: 'Full Stack Application',
+      description: 'Full stack to-do list application using springboot for the backend and html & javascript for the frontend. This application connected to a database and allowed for account creation and management.',
       buttonText: 'Show me',
-      img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+      img: 'assets/images/listify.png'
     },
     {
-      title: 'Project Title Three',
+      title: 'Virtual Reality',
+      area: 'Virtual Reality',
       description: 'Some quick example text to build on the card title and make up the bulk of the card content',
       buttonText: 'Show me',
-      img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+      img: 'assets/images/VRPoster.png'
     },
     {
-      title: 'Project Title Four',
+      title: '3D Modelling',
+      area: 'AutoDesk 3ds Max, Unreal Engine',
       description: 'Some quick example text to build on the card title and make up the bulk of the card content',
       buttonText: 'Show me',
-      img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+      img: 'assets/images/all-models.png'
     },
     {
-      title: 'Project Title Five',
+      title: 'Serious Games',
+      area: 'Games Development, Unity 5',
       description: 'Some quick example text to build on the card title and make up the bulk of the card content',
       buttonText: 'Show me',
-      img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+      img: 'assets/images/srsgame.jpg'
     },
     {
       title: 'Project Title Six',
@@ -54,7 +55,7 @@ export class CardsViewComponent implements OnInit {
       buttonText: 'Show me',
       img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
     },
-    
+
   ];
 
 }
