@@ -1,5 +1,5 @@
 <app-carousel></app-carousel>
-<div class="container">
+<div theme class="container">
 
   <div class="layout" *ngFor="let card of cards">
 
@@ -7,7 +7,7 @@
       <img mat-card-image src={{card.img}} class="card-img">
       <div class="overlay">
         <h1 class="title">{{card.title}}</h1>
-        <h3 class="subtitle">{{card.area}}</h3>
+        <h3 class="subtitle"><i>{{card.area}}</i></h3>
         <p class="text">{{card.description}}</p>
         <button mat-raised-button class="view-project" [routerLink]="[card.link]">{{card.buttonText}}</button>
       </div>

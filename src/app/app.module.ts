@@ -26,6 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { NavigationComponent } from './components/layout/navigation/navigation.component';
 import { MatDividerModule } from '@angular/material/divider';
+import { ThemeModule, lightTheme, darkTheme } from './theme';
 
 
 @NgModule({
@@ -56,6 +57,10 @@ import { MatDividerModule } from '@angular/material/divider';
     FlexLayoutModule,
     HttpClientModule,
     MatDividerModule,
+    ThemeModule.forRoot({
+      themes: [lightTheme, darkTheme],
+      active: 'light'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

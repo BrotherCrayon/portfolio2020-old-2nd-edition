@@ -13,9 +13,9 @@
   border-radius: 4px;
   margin-bottom: 32px;
   padding: 0;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777;
+  -webkit-box-shadow: 0 10px 6px -6px var(--shadow);
+  -moz-box-shadow: 0 10px 6px -6px var(--shadow);
+  box-shadow: 0 10px 6px -6px var(--shadow);
   transition: ease .4s;
 }
 
@@ -31,8 +31,8 @@
 }
 
 .mat-raised-button {
-  background-color: #F45D01;
-  color: #eee;
+  background-color: var(--secondary);
+  color: var(--on-secondary);
   font-weight: 300;
 }
 
@@ -45,7 +45,7 @@
   top: 0;
   opacity: 0;
   transition: ease .4s;
-  background-color: #eece02ee;
+  background-color: var(--card-overlay);
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -56,18 +56,16 @@
 }
 
 .text {
-  color: #474647;
+  color: var(--on-primary);
   font-size: 16px;
-  /* position: absolute; */
   left: 0;
   margin: 8px;
   text-align: left;
 }
 
 .title {
-  color: #474647;
+  color: var(--on-primary);
   font-size: 32px;
-  /* position: absolute; */
   top: 0;
   left: 0;
   margin: 8px 8px 4px 8px;
@@ -75,14 +73,14 @@
 }
 
 .subtitle {
-  color: #474647;
-  font-size: 20px;
+  color: var(--on-primary);
+  font-size: 18px;
   left: 0;
   margin: 4px 8px;
 }
 
 .view-project {
-  color: #eee;
+  color: var(--on-secondary);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -91,7 +89,8 @@
 }
 
 .mat-raised-button:hover {
-  background-color: #a53f00;
+  background-color: var(--primary);
+  color: var(--on-primary);
 }
 
 @media (max-width:996px) {
@@ -105,7 +104,7 @@
 
 @media (max-width:700px) {
   .card {
-    width: 75vw;
+    width: 80vw;
     margin: 16px 4px;
     transition: none;
     min-height: 100px;

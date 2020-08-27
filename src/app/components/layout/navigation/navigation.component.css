@@ -1,17 +1,17 @@
 .sidenav-container {
   height: 100%;
+  background-color: var(--background);
+  color: var(--on-background);
 }
 
 .sidenav {
   width: 60vw;
-  background: #eee;
-}
-
-.sidenav .mat-toolbar {
-  background: #EECD02;
+  background: var(--background);
+  color: var(--on-background);
 }
 
 .sidenav-button {
+  color: var(--on-primary);
   font-size: 34px;
   font-weight: 300;
   padding: 16px;
@@ -35,8 +35,9 @@ mat-list-item {
   z-index: 999;
   padding: 8px 16px;
   display: flex;
-  background-color: #EECD02;
-  box-shadow: 0px 3px 5px #474647a9;
+  background-color: var(--primary);
+  color: var(--on-primary);
+  box-shadow: 0px 1px 4px var(--shadow);
 }
 
 .hidden {
@@ -52,14 +53,7 @@ mat-list-item {
   font-weight: 300;
 }
 
-/* srdfghjkl;' */
-.nav {
-  padding: 8px 16px;
-  display: flex;
-  align-items: center;
-  background-color: #EECD02;
-  box-shadow: 0px 3px 5px #474647;
-}
+/* --- */
 
 .logo {
   margin-right: 16px;
