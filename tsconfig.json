@@ -12,6 +12,7 @@
     "importHelpers": true,
     "target": "es2015",
     "lib": [
+      // to support IE, this needs to be ES5
       "es2018",
       "dom"
     ]

@@ -28,7 +28,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { NavigationComponent } from './components/layout/navigation/navigation.component';
 import { MatDividerModule } from '@angular/material/divider';
 import { ThemeModule, lightTheme, darkTheme, greenTheme, redTheme, blueTheme } from './theme';
-
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire';
 
 
 @NgModule({
@@ -63,7 +64,8 @@ import { ThemeModule, lightTheme, darkTheme, greenTheme, redTheme, blueTheme } f
     ThemeModule.forRoot({
       themes: [lightTheme, darkTheme, greenTheme, redTheme, blueTheme],
       active: 'light'
-    })
+    }),
+    AngularFireModule.initializeApp(environment.firebaseConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
