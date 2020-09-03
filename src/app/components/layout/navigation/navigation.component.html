@@ -6,7 +6,13 @@
       <mat-icon (click)="drawer.toggle()">close</mat-icon>
     </mat-toolbar>
     <mat-nav-list>
-      <button (click)="toggle()">Toggle</button>
+      <div class="theming">
+        <button id="light" class="theme-toggle" (click)="toggleTheme('light')" aria-label="theme-toggle"></button>
+        <button id="dark" class="theme-toggle" (click)="toggleTheme('dark')" aria-label="theme-toggle"></button>
+        <button id="green" class="theme-toggle" (click)="toggleTheme('green')" aria-label="theme-toggle"></button>
+        <button id="blue" class="theme-toggle" (click)="toggleTheme('blue')" aria-label="theme-toggle"></button>
+        <button id="red" class="theme-toggle" (click)="toggleTheme('red')" aria-label="theme-toggle"></button>
+      </div>
       <a mat-list-item (click)="drawer.toggle()" class="sidenav-button" routerLink="/">Home</a>
       <mat-divider></mat-divider>
       <a mat-list-item (click)="drawer.toggle()" class="sidenav-button" routerLink="/about">About</a>

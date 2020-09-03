@@ -10,6 +10,39 @@
   color: var(--on-background);
 }
 
+.theming {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 48px;
+}
+
+.theme-toggle {
+  width: 24px;
+  height: 24px;
+  border: solid 1px #474647;
+  border-radius: 16px;
+}
+.theme-toggle:focus {
+  outline: 16px;
+}
+
+#light {
+  background-color: #EECD02;
+}
+#dark {
+  background-color: #474647;
+}
+#green {
+  background-color: #5DA60F;
+}
+#blue {
+  background-color: #2A62FE;
+}
+#red {
+  background-color: #E41401;
+}
+
 .sidenav-button {
   color: var(--on-primary);
   font-size: 34px;
@@ -51,6 +84,11 @@ mat-list-item {
 .menu-button {
   font-size: 18pt;
   font-weight: 300;
+}
+
+.menu-button:hover {
+  background-color: var(--secondary);
+  color: var(--on-secondary);
 }
 
 /* --- */

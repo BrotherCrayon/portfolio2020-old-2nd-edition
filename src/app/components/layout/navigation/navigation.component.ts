@@ -52,8 +52,6 @@ export class NavigationComponent {
       shareReplay()
     );
 
-
-
   constructor(private breakpointObserver: BreakpointObserver, private themeService: ThemeService) { }
 
   public mobileViewProjects: boolean;
@@ -62,13 +60,11 @@ export class NavigationComponent {
     this.mobileViewProjects = !this.mobileViewProjects;
   }
 
-  toggle() {
-    const active = this.themeService.getActiveTheme();
-    if (active.name === 'light') {
-      this.themeService.setTheme('dark');
-    } else {
-      this.themeService.setTheme('light');
-    }
+
+  toggleTheme(theme: string) {
+
+    this.themeService.setTheme(theme);
   }
+
 
 }

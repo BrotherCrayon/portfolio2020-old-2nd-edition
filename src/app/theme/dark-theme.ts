@@ -11,9 +11,10 @@ export const darkTheme: Theme = {
         '--on-secondary': '#eee',
         '--error': '#E74E3C',
         '--on-error': '#fff',
+        '--surface': '#333',
+        '--on-surface': '#eee',
         '--shadow': '#333',
         '--card-overlay': '#474647EE',
-        '--card-panel': '#333',
         '--carousel': '#12121280'
     }
 };

@@ -15,6 +15,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSlideToggleModule, MatSlideToggle } from '@angular/material/slide-toggle';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
@@ -26,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { NavigationComponent } from './components/layout/navigation/navigation.component';
 import { MatDividerModule } from '@angular/material/divider';
-import { ThemeModule, lightTheme, darkTheme } from './theme';
+import { ThemeModule, lightTheme, darkTheme, greenTheme, redTheme, blueTheme } from './theme';
+
 
 
 @NgModule({
@@ -51,6 +53,7 @@ import { ThemeModule, lightTheme, darkTheme } from './theme';
     LayoutModule,
     MatToolbarModule,
     MatSidenavModule,
+    MatSlideToggleModule,
     MatIconModule,
     MatListModule,
     MatExpansionModule,
@@ -58,7 +61,7 @@ import { ThemeModule, lightTheme, darkTheme } from './theme';
     HttpClientModule,
     MatDividerModule,
     ThemeModule.forRoot({
-      themes: [lightTheme, darkTheme],
+      themes: [lightTheme, darkTheme, greenTheme, redTheme, blueTheme],
       active: 'light'
     })
   ],

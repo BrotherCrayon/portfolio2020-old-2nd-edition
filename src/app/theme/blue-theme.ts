@@ -1,18 +1,18 @@
 import { Theme } from './symbols';
 
-export const lightTheme: Theme = {
-    name: 'light',
+export const blueTheme: Theme = {
+    name: 'blue',
     properties: {
-        '--background': '#eee',
+        '--background': '#E0E8FF',
         '--on-background': '#222',
-        '--primary': '#EECD02',
-        '--on-primary': '#333',
-        '--secondary': '#F45D01',
+        '--primary': '#2A62FE',
+        '--on-primary': '#474647',
+        '--secondary': '#1B3409',
         '--on-secondary': '#eee',
         '--error': '#E74E3C',
         '--on-error': '#474647',
-        '--surface': '#fff',
-        '--on-surface': '#333',
+        '--surface': '#5DA60FCC',
+        '--on-surface': '#fff',
         '--shadow': '#777',
         '--card-overlay': '#EECD02DD',
         '--carousel': '#EECD0260'
