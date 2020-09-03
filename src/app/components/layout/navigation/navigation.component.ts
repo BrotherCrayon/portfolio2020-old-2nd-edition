@@ -20,7 +20,7 @@ import { ThemeService } from 'src/app/theme';
         }),
 
         query('.sidenav-button', stagger('160ms', [
-          animate('0.5s 0.3s ease-in', keyframes([ //maybe 1.5s 1s ease-in
+          animate('0.5s 0.3s ease-in', keyframes([ // maybe 1.5s 1s ease-in
             style({
               opacity: 0,
               transform: 'translateX(-64px)',
@@ -55,7 +55,8 @@ export class NavigationComponent {
   constructor(private breakpointObserver: BreakpointObserver, private themeService: ThemeService) { }
 
   public mobileViewProjects: boolean;
-  navOpen: Boolean = false;
+  // tslint:disable-next-line: no-inferrable-types
+  navOpen: boolean = false;
   openProjectsMenu() {
     this.mobileViewProjects = !this.mobileViewProjects;
   }
