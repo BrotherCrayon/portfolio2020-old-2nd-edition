@@ -26,6 +26,15 @@
 .theme-toggle:focus {
   outline: 16px;
 }
+.theme-toggle-desktop-container { 
+  width: 52px;
+}
+.theme-toggle-desktop {
+  width: 48px;
+  height: 40px;
+  margin: auto;
+  padding: 4px;
+}
 
 #light {
   background-color: #EECD02;
