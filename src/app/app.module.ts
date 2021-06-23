@@ -29,7 +29,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { ThemeModule, lightTheme, darkTheme, greenTheme, redTheme, blueTheme } from './theme';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire';
-
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { AngularFireModule } from '@angular/fire';
     ContactComponent,
     routingComponents,
     NotFoundComponent,
-    NavigationComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
@@ -63,7 +64,9 @@ import { AngularFireModule } from '@angular/fire';
       themes: [lightTheme, darkTheme, greenTheme, redTheme, blueTheme],
       active: 'light'
     }),
-    AngularFireModule.initializeApp(environment.firebaseConfig)
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
