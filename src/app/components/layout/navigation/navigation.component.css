@@ -1,17 +1,59 @@
 .sidenav-container {
   height: 100%;
+  background-color: var(--background);
+  color: var(--on-background);
 }
 
 .sidenav {
   width: 60vw;
-  background: #eee;
+  background: var(--background);
+  color: var(--on-background);
 }
 
-.sidenav .mat-toolbar {
-  background: #EECD02;
+.theming {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 48px;
+}
+
+.theme-toggle {
+  width: 24px;
+  height: 24px;
+  border: solid 1px #474647;
+  border-radius: 16px;
+}
+.theme-toggle:focus {
+  outline: 16px;
+}
+.theme-toggle-desktop-container { 
+  width: 52px;
+}
+.theme-toggle-desktop {
+  width: 48px;
+  height: 40px;
+  margin: auto;
+  padding: 4px;
+}
+
+#light {
+  background-color: #EECD02;
+}
+#dark {
+  background-color: #474647;
+}
+#green {
+  background-color: #5DA60F;
+}
+#blue {
+  background-color: #2A62FE;
+}
+#red {
+  background-color: #E41401;
 }
 
 .sidenav-button {
+  color: var(--on-primary);
   font-size: 34px;
   font-weight: 300;
   padding: 16px;
@@ -35,8 +77,9 @@ mat-list-item {
   z-index: 999;
   padding: 8px 16px;
   display: flex;
-  background-color: #EECD02;
-  box-shadow: 0px 3px 5px #474647a9;
+  background-color: var(--primary);
+  color: var(--on-primary);
+  box-shadow: 0px 1px 4px var(--shadow);
 }
 
 .hidden {
@@ -52,14 +95,12 @@ mat-list-item {
   font-weight: 300;
 }
 
-/* srdfghjkl;' */
-.nav {
-  padding: 8px 16px;
-  display: flex;
-  align-items: center;
-  background-color: #EECD02;
-  box-shadow: 0px 3px 5px #474647;
+.menu-button:hover {
+  background-color: var(--secondary);
+  color: var(--on-secondary);
 }
+
+/* --- */
 
 .logo {
   margin-right: 16px;

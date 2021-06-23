@@ -3,6 +3,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { trigger, transition, style, animate, keyframes, query, stagger } from '@angular/animations';
+import { ThemeService } from 'src/app/theme';
 
 @Component({
   selector: 'app-navigation',
@@ -19,7 +20,7 @@ import { trigger, transition, style, animate, keyframes, query, stagger } from '
         }),
 
         query('.sidenav-button', stagger('160ms', [
-          animate('0.5s 0.3s ease-in', keyframes([ //maybe 1.5s 1s ease-in
+          animate('0.5s 0.3s ease-in', keyframes([ // maybe 1.5s 1s ease-in
             style({
               opacity: 0,
               transform: 'translateX(-64px)',
@@ -51,14 +52,20 @@ export class NavigationComponent {
       shareReplay()
     );
 
-
-
-  constructor(private breakpointObserver: BreakpointObserver) { }
+  constructor(private breakpointObserver: BreakpointObserver, private themeService: ThemeService) { }
 
   public mobileViewProjects: boolean;
-  navOpen: Boolean = false;
+  // tslint:disable-next-line: no-inferrable-types
+  navOpen: boolean = false;
   openProjectsMenu() {
     this.mobileViewProjects = !this.mobileViewProjects;
   }
+
+
+  toggleTheme(theme: string) {
+
+    this.themeService.setTheme(theme);
+  }
+
 
 }

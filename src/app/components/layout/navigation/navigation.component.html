@@ -1,4 +1,4 @@
-<mat-sidenav-container class="sidenav-container">
+<mat-sidenav-container theme class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport="false" [ngClass]="{hidden: !(isHandset$ | async)}"
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="(isHandset$ | async) === false" position="end">
@@ -6,6 +6,13 @@
       <mat-icon (click)="drawer.toggle()">close</mat-icon>
     </mat-toolbar>
     <mat-nav-list>
+      <div class="theming">
+        <button id="light" class="theme-toggle" (click)="toggleTheme('light')" aria-label="theme-toggle"></button>
+        <button id="dark" class="theme-toggle" (click)="toggleTheme('dark')" aria-label="theme-toggle"></button>
+        <button id="green" class="theme-toggle" (click)="toggleTheme('green')" aria-label="theme-toggle"></button>
+        <button id="blue" class="theme-toggle" (click)="toggleTheme('blue')" aria-label="theme-toggle"></button>
+        <button id="red" class="theme-toggle" (click)="toggleTheme('red')" aria-label="theme-toggle"></button>
+      </div>
       <a mat-list-item (click)="drawer.toggle()" class="sidenav-button" routerLink="/">Home</a>
       <mat-divider></mat-divider>
       <a mat-list-item (click)="drawer.toggle()" class="sidenav-button" routerLink="/about">About</a>
@@ -26,7 +33,7 @@
     </mat-nav-list>
   </mat-sidenav>
 
-  <mat-sidenav-content>
+  <mat-sidenav-content theme>
     <mat-toolbar>
       <img src="../../../../assets/svg/folio-logo.svg" routerLink="/" class="logo">
       <span class="spacer"></span>
@@ -40,6 +47,21 @@
           <button mat-menu-item routerLink="/listify" routerLinkActive="active">Listify</button>
           <button mat-menu-item routerLink="/virtual-reality" routerLinkActive="active">Virtual Reality</button>
           <button mat-menu-item routerLink="/serious-games" routerLinkActive="active">Serious Games</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="themeMenu" class="menu-button">
+          <img src="../../../../assets/svg/color_lens.svg">
+        </button>
+        <mat-menu class="theme-toggle-desktop-container" #themeMenu="matMenu" yPosition="below">
+          <button mat-menu-item id="light" class="theme-toggle-desktop" (click)="toggleTheme('light')"
+            aria-label="theme-toggle"></button>
+          <button mat-menu-item id="dark" class="theme-toggle-desktop" (click)="toggleTheme('dark')"
+            aria-label="theme-toggle"></button>
+          <button mat-menu-item id="green" class="theme-toggle-desktop" (click)="toggleTheme('green')"
+            aria-label="theme-toggle"></button>
+          <button mat-menu-item id="blue" class="theme-toggle-desktop" (click)="toggleTheme('blue')"
+            aria-label="theme-toggle"></button>
+          <button mat-menu-item id="red" class="theme-toggle-desktop" (click)="toggleTheme('red')"
+            aria-label="theme-toggle"></button>
         </mat-menu>
       </div>
       <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"

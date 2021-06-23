@@ -15,10 +15,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
@@ -26,7 +26,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { NavigationComponent } from './components/layout/navigation/navigation.component';
 import { MatDividerModule } from '@angular/material/divider';
-
+import { ThemeModule, lightTheme, darkTheme, greenTheme, redTheme, blueTheme } from './theme';
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -38,7 +42,7 @@ import { MatDividerModule } from '@angular/material/divider';
     ContactComponent,
     routingComponents,
     NotFoundComponent,
-    NavigationComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
@@ -50,12 +54,19 @@ import { MatDividerModule } from '@angular/material/divider';
     LayoutModule,
     MatToolbarModule,
     MatSidenavModule,
+    MatSlideToggleModule,
     MatIconModule,
     MatListModule,
     MatExpansionModule,
-    FlexLayoutModule,
     HttpClientModule,
     MatDividerModule,
+    ThemeModule.forRoot({
+      themes: [lightTheme, darkTheme, greenTheme, redTheme, blueTheme],
+      active: 'light'
+    }),
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

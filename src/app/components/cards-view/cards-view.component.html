@@ -1,15 +1,16 @@
 <app-carousel></app-carousel>
-<div class="container">
+<div theme class="container" *ngIf="projects.length">
 
-  <div class="layout" *ngFor="let card of cards">
+  <div class="layout" *ngFor="let project of projects">
+  <!-- <div class="layout" *ngIf="projects.length"> -->
 
     <mat-card class="card">
-      <img mat-card-image src={{card.img}} class="card-img">
+      <img mat-card-image src={{project.img}} class="card-img">
       <div class="overlay">
-        <h1 class="title">{{card.title}}</h1>
-        <h3 class="subtitle">{{card.area}}</h3>
-        <p class="text">{{card.description}}</p>
-        <button mat-raised-button class="view-project" [routerLink]="[card.link]">{{card.buttonText}}</button>
+        <h1 class="title" id="test-TOREMOVE">{{project.title}}</h1>
+        <!-- <h3 class="subtitle"><i>{{card.area}}</i></h3> -->
+        <p class="text">{{project.desc}}</p>
+        <button mat-raised-button class="view-project" [routerLink]="[project.link]">Go</button>
       </div>
     </mat-card>
 
