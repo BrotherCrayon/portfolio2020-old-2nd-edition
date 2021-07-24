@@ -26,14 +26,21 @@
 .theme-toggle:focus {
   outline: 16px;
 }
-.theme-toggle-desktop-container { 
-  width: 52px;
+::ng-deep .theme-toggle-desktop-container{ 
+  max-width: 14px;
+  min-width: 14px;
+  width: 14px;
+  background-color: #00000069;
 }
 .theme-toggle-desktop {
-  width: 48px;
-  height: 40px;
-  margin: auto;
-  padding: 4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 12px;
+  margin: 8px auto;
+  padding: 24px 48px;
+}
+.theme-toggle-desktop:hover {
+  transform: scale(1.1);
 }
 
 #light {

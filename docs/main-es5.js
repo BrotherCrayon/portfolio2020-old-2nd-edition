@@ -834,7 +834,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", project_r2.img, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", project_r2.url, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
@@ -927,7 +927,7 @@
           }
         },
         directives: [_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_3__["CarouselComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _theme_theme_directive__WEBPACK_IMPORTED_MODULE_5__["ThemeDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardImage"], _angular_material_button__WEBPACK_IMPORTED_MODULE_7__["MatButton"], _angular_router__WEBPACK_IMPORTED_MODULE_8__["RouterLink"]],
-        styles: [".container[_ngcontent-%COMP%] {\r\n  margin-top: 32px;\r\n  display: -moz-box;\r\n  display: flex;\r\n  -moz-box-flex: 2;\r\n       flex-grow: 2;\r\n  flex-wrap: wrap;\r\n  -moz-box-pack: space-evenly;\r\n       justify-content: space-evenly;\r\n}\r\n\r\n.card[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  height: 240px;\r\n  width: 30vw;\r\n  border-radius: 4px;\r\n  margin-bottom: 32px;\r\n  padding: 0;\r\n  background-color: var(--background);\r\n  \r\n  transition: ease .4s;\r\n}\r\n\r\n.card[_ngcontent-%COMP%]:hover {\r\n  -webkit-transform: scale(1.05);\r\n          transform: scale(1.05);\r\n}\r\n\r\n.card-img[_ngcontent-%COMP%] {\r\n  width: inherit;\r\n  height: inherit;\r\n  margin: 0 !important;\r\n  border-radius: 4px;\r\n}\r\n\r\n.mat-raised-button[_ngcontent-%COMP%] {\r\n  background-color: var(--secondary);\r\n  color: var(--on-secondary);\r\n  font-weight: 300;\r\n}\r\n\r\n\r\n\r\n.overlay[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  z-index: 3;\r\n  height: inherit;\r\n  width: inherit;\r\n  top: 0;\r\n  opacity: 0;\r\n  transition: ease .4s;\r\n  background-color: var(--card-overlay);\r\n  border-radius: 4px;\r\n  display: -moz-box;\r\n  display: flex;\r\n  -moz-box-orient: vertical;\r\n  -moz-box-direction: normal;\r\n       flex-direction: column;\r\n}\r\n\r\n.layout[_ngcontent-%COMP%]:hover   .overlay[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n}\r\n\r\n.text[_ngcontent-%COMP%] {\r\n  color: var(--on-primary);\r\n  font-size: 16px;\r\n  left: 0;\r\n  margin: 8px;\r\n  text-align: left;\r\n}\r\n\r\n.title[_ngcontent-%COMP%] {\r\n  color: var(--on-primary);\r\n  font-size: 32px;\r\n  top: 0;\r\n  left: 0;\r\n  margin: 8px 8px 4px 8px;\r\n  text-align: left;\r\n}\r\n\r\n.subtitle[_ngcontent-%COMP%] {\r\n  color: var(--on-primary);\r\n  font-size: 18px;\r\n  left: 0;\r\n  margin: 4px 8px;\r\n}\r\n\r\n.view-project[_ngcontent-%COMP%] {\r\n  color: var(--on-secondary);\r\n  position: absolute;\r\n  right: 0;\r\n  bottom: 0;\r\n  height: 40px;\r\n  margin: 8px 8px;\r\n}\r\n\r\n.mat-raised-button[_ngcontent-%COMP%]:hover {\r\n  background-color: var(--primary);\r\n  color: var(--on-primary);\r\n}\r\n\r\n@media (max-width:996px) {\r\n  .card[_ngcontent-%COMP%] {\r\n    width: 45vw;\r\n    transition: none;\r\n    min-height: 100px;\r\n    overflow: hidden;\r\n  }\r\n}\r\n\r\n@media (max-width:700px) {\r\n  .card[_ngcontent-%COMP%] {\r\n    width: 80vw;\r\n    margin: 16px 4px;\r\n    transition: none;\r\n    min-height: 100px;\r\n    overflow: hidden;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy12aWV3L2NhcmRzLXZpZXcuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFnQjtFQUNoQixpQkFBYTtFQUFiLGFBQWE7RUFDYixnQkFBWTtPQUFaLFlBQVk7RUFDWixlQUFlO0VBQ2YsMkJBQTZCO09BQTdCLDZCQUE2QjtBQUMvQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixhQUFhO0VBQ2IsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsVUFBVTtFQUNWLG1DQUFtQztFQUNuQzs7OENBRTRDO0VBQzVDLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFLDhCQUFzQjtVQUF0QixzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxjQUFjO0VBQ2QsZUFBZTtFQUNmLG9CQUFvQjtFQUNwQixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQ0FBa0M7RUFDbEMsMEJBQTBCO0VBQzFCLGdCQUFnQjtBQUNsQjs7QUFFQSxtQkFBbUI7O0FBQ25CO0VBQ0Usa0JBQWtCO0VBQ2xCLFVBQVU7RUFDVixlQUFlO0VBQ2YsY0FBYztFQUNkLE1BQU07RUFDTixVQUFVO0VBQ1Ysb0JBQW9CO0VBQ3BCLHFDQUFxQztFQUNyQyxrQkFBa0I7RUFDbEIsaUJBQWE7RUFBYixhQUFhO0VBQ2IseUJBQXNCO0VBQXRCLDBCQUFzQjtPQUF0QixzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSx3QkFBd0I7RUFDeEIsZUFBZTtFQUNmLE9BQU87RUFDUCxXQUFXO0VBQ1gsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0Usd0JBQXdCO0VBQ3hCLGVBQWU7RUFDZixNQUFNO0VBQ04sT0FBTztFQUNQLHVCQUF1QjtFQUN2QixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSx3QkFBd0I7RUFDeEIsZUFBZTtFQUNmLE9BQU87RUFDUCxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsMEJBQTBCO0VBQzFCLGtCQUFrQjtFQUNsQixRQUFRO0VBQ1IsU0FBUztFQUNULFlBQVk7RUFDWixlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsZ0NBQWdDO0VBQ2hDLHdCQUF3QjtBQUMxQjs7QUFFQTtFQUNFO0lBQ0UsV0FBVztJQUNYLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsZ0JBQWdCO0VBQ2xCO0FBQ0Y7O0FBRUE7RUFDRTtJQUNFLFdBQVc7SUFDWCxnQkFBZ0I7SUFDaEIsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixnQkFBZ0I7RUFDbEI7QUFDRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2FyZHMtdmlldy9jYXJkcy12aWV3LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVyIHtcclxuICBtYXJnaW4tdG9wOiAzMnB4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1ncm93OiAyO1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxufVxyXG5cclxuLmNhcmQge1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBoZWlnaHQ6IDI0MHB4O1xyXG4gIHdpZHRoOiAzMHZ3O1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICBtYXJnaW4tYm90dG9tOiAzMnB4O1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tYmFja2dyb3VuZCk7XHJcbiAgLyogLXdlYmtpdC1ib3gtc2hhZG93OiAwIDEwcHggNnB4IC02cHggdmFyKC0tc2hhZG93KTtcclxuICAtbW96LWJveC1zaGFkb3c6IDAgMTBweCA2cHggLTZweCB2YXIoLS1zaGFkb3cpO1xyXG4gIGJveC1zaGFkb3c6IDAgMTBweCA2cHggLTZweCB2YXIoLS1zaGFkb3cpOyAqL1xyXG4gIHRyYW5zaXRpb246IGVhc2UgLjRzO1xyXG59XHJcblxyXG4uY2FyZDpob3ZlciB7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxufVxyXG5cclxuLmNhcmQtaW1nIHtcclxuICB3aWR0aDogaW5oZXJpdDtcclxuICBoZWlnaHQ6IGluaGVyaXQ7XHJcbiAgbWFyZ2luOiAwICFpbXBvcnRhbnQ7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcblxyXG4ubWF0LXJhaXNlZC1idXR0b24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XHJcbiAgY29sb3I6IHZhcigtLW9uLXNlY29uZGFyeSk7XHJcbiAgZm9udC13ZWlnaHQ6IDMwMDtcclxufVxyXG5cclxuLyogY2FyZCBtb3VzZW92ZXIgKi9cclxuLm92ZXJsYXkge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB6LWluZGV4OiAzO1xyXG4gIGhlaWdodDogaW5oZXJpdDtcclxuICB3aWR0aDogaW5oZXJpdDtcclxuICB0b3A6IDA7XHJcbiAgb3BhY2l0eTogMDtcclxuICB0cmFuc2l0aW9uOiBlYXNlIC40cztcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jYXJkLW92ZXJsYXkpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbn1cclxuXHJcbi5sYXlvdXQ6aG92ZXIgLm92ZXJsYXkge1xyXG4gIG9wYWNpdHk6IDE7XHJcbn1cclxuXHJcbi50ZXh0IHtcclxuICBjb2xvcjogdmFyKC0tb24tcHJpbWFyeSk7XHJcbiAgZm9udC1zaXplOiAxNnB4O1xyXG4gIGxlZnQ6IDA7XHJcbiAgbWFyZ2luOiA4cHg7XHJcbiAgdGV4dC1hbGlnbjogbGVmdDtcclxufVxyXG5cclxuLnRpdGxlIHtcclxuICBjb2xvcjogdmFyKC0tb24tcHJpbWFyeSk7XHJcbiAgZm9udC1zaXplOiAzMnB4O1xyXG4gIHRvcDogMDtcclxuICBsZWZ0OiAwO1xyXG4gIG1hcmdpbjogOHB4IDhweCA0cHggOHB4O1xyXG4gIHRleHQtYWxpZ246IGxlZnQ7XHJcbn1cclxuXHJcbi5zdWJ0aXRsZSB7XHJcbiAgY29sb3I6IHZhcigtLW9uLXByaW1hcnkpO1xyXG4gIGZvbnQtc2l6ZTogMThweDtcclxuICBsZWZ0OiAwO1xyXG4gIG1hcmdpbjogNHB4IDhweDtcclxufVxyXG5cclxuLnZpZXctcHJvamVjdCB7XHJcbiAgY29sb3I6IHZhcigtLW9uLXNlY29uZGFyeSk7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHJpZ2h0OiAwO1xyXG4gIGJvdHRvbTogMDtcclxuICBoZWlnaHQ6IDQwcHg7XHJcbiAgbWFyZ2luOiA4cHggOHB4O1xyXG59XHJcblxyXG4ubWF0LXJhaXNlZC1idXR0b246aG92ZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXByaW1hcnkpO1xyXG4gIGNvbG9yOiB2YXIoLS1vbi1wcmltYXJ5KTtcclxufVxyXG5cclxuQG1lZGlhIChtYXgtd2lkdGg6OTk2cHgpIHtcclxuICAuY2FyZCB7XHJcbiAgICB3aWR0aDogNDV2dztcclxuICAgIHRyYW5zaXRpb246IG5vbmU7XHJcbiAgICBtaW4taGVpZ2h0OiAxMDBweDtcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgKG1heC13aWR0aDo3MDBweCkge1xyXG4gIC5jYXJkIHtcclxuICAgIHdpZHRoOiA4MHZ3O1xyXG4gICAgbWFyZ2luOiAxNnB4IDRweDtcclxuICAgIHRyYW5zaXRpb246IG5vbmU7XHJcbiAgICBtaW4taGVpZ2h0OiAxMDBweDtcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgfVxyXG59XHJcbiJdfQ== */"]
+        styles: [".container[_ngcontent-%COMP%] {\r\n  margin-top: 16px;\r\n  display: -moz-box;\r\n  display: flex;\r\n  -moz-box-flex: 2;\r\n       flex-grow: 2;\r\n  flex-wrap: wrap;\r\n  -moz-box-pack: space-evenly;\r\n       justify-content: space-evenly;\r\n}\r\n\r\n.card[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  height: 250px;\r\n  width: 31vw;\r\n  border-radius: 4px;\r\n  margin-bottom: 24px;\r\n  padding: 0;\r\n  background-color: var(--background);\r\n  \r\n  transition: ease .4s;\r\n}\r\n\r\n.card[_ngcontent-%COMP%]:hover {\r\n  -webkit-transform: scale(1.02);\r\n          transform: scale(1.02);\r\n}\r\n\r\n.card-img[_ngcontent-%COMP%] {\r\n  width: inherit;\r\n  height: inherit;\r\n  margin: 0 !important;\r\n  border-radius: 4px;\r\n}\r\n\r\n.mat-raised-button[_ngcontent-%COMP%] {\r\n  background-color: var(--secondary);\r\n  color: var(--on-secondary);\r\n  font-weight: 300;\r\n}\r\n\r\n\r\n\r\n.overlay[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  z-index: 3;\r\n  height: inherit;\r\n  width: inherit;\r\n  overflow: hidden;\r\n  bottom: 100%;\r\n  height: 0;\r\n  \r\n  transition: ease .5s;\r\n  background-color: var(--card-overlay);\r\n  border-radius: 4px;\r\n  \r\n  \r\n}\r\n\r\n.layout[_ngcontent-%COMP%]:hover   .overlay[_ngcontent-%COMP%] {\r\n  bottom: 0;\r\n  height: 100%;\r\n}\r\n\r\n.text[_ngcontent-%COMP%] {\r\n  color: var(--on-primary);\r\n  font-size: 16px;\r\n  left: 0;\r\n  margin: 8px;\r\n  text-align: left;\r\n}\r\n\r\n.title[_ngcontent-%COMP%] {\r\n  color: var(--on-primary);\r\n  font-size: 32px;\r\n  top: 0;\r\n  left: 0;\r\n  margin: 8px 8px 4px 8px;\r\n  text-align: left;\r\n}\r\n\r\n.subtitle[_ngcontent-%COMP%] {\r\n  color: var(--on-primary);\r\n  font-size: 18px;\r\n  left: 0;\r\n  margin: 4px 8px;\r\n}\r\n\r\n.view-project[_ngcontent-%COMP%] {\r\n  color: var(--on-secondary);\r\n  position: absolute;\r\n  right: 0;\r\n  bottom: 0;\r\n  height: 40px;\r\n  margin: 8px 8px;\r\n}\r\n\r\n.mat-raised-button[_ngcontent-%COMP%]:hover {\r\n  background-color: var(--primary);\r\n  color: var(--on-primary);\r\n}\r\n\r\n@media (max-width:996px) {\r\n  .card[_ngcontent-%COMP%] {\r\n    width: 47vw;\r\n    transition: none;\r\n    min-height: 100px;\r\n    overflow: hidden;\r\n  }\r\n}\r\n\r\n@media (max-width:700px) {\r\n  .card[_ngcontent-%COMP%] {\r\n    width: 85vw;\r\n    margin: 16px 4px;\r\n    transition: none;\r\n    min-height: 100px;\r\n    overflow: hidden;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy12aWV3L2NhcmRzLXZpZXcuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFnQjtFQUNoQixpQkFBYTtFQUFiLGFBQWE7RUFDYixnQkFBWTtPQUFaLFlBQVk7RUFDWixlQUFlO0VBQ2YsMkJBQTZCO09BQTdCLDZCQUE2QjtBQUMvQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixhQUFhO0VBQ2IsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsVUFBVTtFQUNWLG1DQUFtQztFQUNuQzs7OENBRTRDO0VBQzVDLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFLDhCQUFzQjtVQUF0QixzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxjQUFjO0VBQ2QsZUFBZTtFQUNmLG9CQUFvQjtFQUNwQixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQ0FBa0M7RUFDbEMsMEJBQTBCO0VBQzFCLGdCQUFnQjtBQUNsQjs7QUFFQSxtQkFBbUI7O0FBQ25CO0VBQ0Usa0JBQWtCO0VBQ2xCLFVBQVU7RUFDVixlQUFlO0VBQ2YsY0FBYztFQUNkLGdCQUFnQjtFQUNoQixZQUFZO0VBQ1osU0FBUztFQUNULGdCQUFnQjtFQUNoQixvQkFBb0I7RUFDcEIscUNBQXFDO0VBQ3JDLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsNEJBQTRCO0FBQzlCOztBQUVBO0VBQ0UsU0FBUztFQUNULFlBQVk7QUFDZDs7QUFFQTtFQUNFLHdCQUF3QjtFQUN4QixlQUFlO0VBQ2YsT0FBTztFQUNQLFdBQVc7RUFDWCxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSx3QkFBd0I7RUFDeEIsZUFBZTtFQUNmLE1BQU07RUFDTixPQUFPO0VBQ1AsdUJBQXVCO0VBQ3ZCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLHdCQUF3QjtFQUN4QixlQUFlO0VBQ2YsT0FBTztFQUNQLGVBQWU7QUFDakI7O0FBRUE7RUFDRSwwQkFBMEI7RUFDMUIsa0JBQWtCO0VBQ2xCLFFBQVE7RUFDUixTQUFTO0VBQ1QsWUFBWTtFQUNaLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxnQ0FBZ0M7RUFDaEMsd0JBQXdCO0FBQzFCOztBQUVBO0VBQ0U7SUFDRSxXQUFXO0lBQ1gsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixnQkFBZ0I7RUFDbEI7QUFDRjs7QUFFQTtFQUNFO0lBQ0UsV0FBVztJQUNYLGdCQUFnQjtJQUNoQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLGdCQUFnQjtFQUNsQjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy12aWV3L2NhcmRzLXZpZXcuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xyXG4gIG1hcmdpbi10b3A6IDE2cHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWdyb3c6IDI7XHJcbiAgZmxleC13cmFwOiB3cmFwO1xyXG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG59XHJcblxyXG4uY2FyZCB7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGhlaWdodDogMjUwcHg7XHJcbiAgd2lkdGg6IDMxdnc7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDI0cHg7XHJcbiAgcGFkZGluZzogMDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1iYWNrZ3JvdW5kKTtcclxuICAvKiAtd2Via2l0LWJveC1zaGFkb3c6IDAgMTBweCA2cHggLTZweCB2YXIoLS1zaGFkb3cpO1xyXG4gIC1tb3otYm94LXNoYWRvdzogMCAxMHB4IDZweCAtNnB4IHZhcigtLXNoYWRvdyk7XHJcbiAgYm94LXNoYWRvdzogMCAxMHB4IDZweCAtNnB4IHZhcigtLXNoYWRvdyk7ICovXHJcbiAgdHJhbnNpdGlvbjogZWFzZSAuNHM7XHJcbn1cclxuXHJcbi5jYXJkOmhvdmVyIHtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDEuMDIpO1xyXG59XHJcblxyXG4uY2FyZC1pbWcge1xyXG4gIHdpZHRoOiBpbmhlcml0O1xyXG4gIGhlaWdodDogaW5oZXJpdDtcclxuICBtYXJnaW46IDAgIWltcG9ydGFudDtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuXHJcbi5tYXQtcmFpc2VkLWJ1dHRvbiB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcclxuICBjb2xvcjogdmFyKC0tb24tc2Vjb25kYXJ5KTtcclxuICBmb250LXdlaWdodDogMzAwO1xyXG59XHJcblxyXG4vKiBjYXJkIG1vdXNlb3ZlciAqL1xyXG4ub3ZlcmxheSB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHotaW5kZXg6IDM7XHJcbiAgaGVpZ2h0OiBpbmhlcml0O1xyXG4gIHdpZHRoOiBpbmhlcml0O1xyXG4gIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgYm90dG9tOiAxMDAlO1xyXG4gIGhlaWdodDogMDtcclxuICAvKiBvcGFjaXR5OiAwOyAqL1xyXG4gIHRyYW5zaXRpb246IGVhc2UgLjVzO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNhcmQtb3ZlcmxheSk7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gIC8qIGRpc3BsYXk6IGZsZXg7ICovXHJcbiAgLyogZmxleC1kaXJlY3Rpb246IGNvbHVtbjsgKi9cclxufVxyXG5cclxuLmxheW91dDpob3ZlciAub3ZlcmxheSB7XHJcbiAgYm90dG9tOiAwO1xyXG4gIGhlaWdodDogMTAwJTtcclxufVxyXG5cclxuLnRleHQge1xyXG4gIGNvbG9yOiB2YXIoLS1vbi1wcmltYXJ5KTtcclxuICBmb250LXNpemU6IDE2cHg7XHJcbiAgbGVmdDogMDtcclxuICBtYXJnaW46IDhweDtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG59XHJcblxyXG4udGl0bGUge1xyXG4gIGNvbG9yOiB2YXIoLS1vbi1wcmltYXJ5KTtcclxuICBmb250LXNpemU6IDMycHg7XHJcbiAgdG9wOiAwO1xyXG4gIGxlZnQ6IDA7XHJcbiAgbWFyZ2luOiA4cHggOHB4IDRweCA4cHg7XHJcbiAgdGV4dC1hbGlnbjogbGVmdDtcclxufVxyXG5cclxuLnN1YnRpdGxlIHtcclxuICBjb2xvcjogdmFyKC0tb24tcHJpbWFyeSk7XHJcbiAgZm9udC1zaXplOiAxOHB4O1xyXG4gIGxlZnQ6IDA7XHJcbiAgbWFyZ2luOiA0cHggOHB4O1xyXG59XHJcblxyXG4udmlldy1wcm9qZWN0IHtcclxuICBjb2xvcjogdmFyKC0tb24tc2Vjb25kYXJ5KTtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgcmlnaHQ6IDA7XHJcbiAgYm90dG9tOiAwO1xyXG4gIGhlaWdodDogNDBweDtcclxuICBtYXJnaW46IDhweCA4cHg7XHJcbn1cclxuXHJcbi5tYXQtcmFpc2VkLWJ1dHRvbjpob3ZlciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tcHJpbWFyeSk7XHJcbiAgY29sb3I6IHZhcigtLW9uLXByaW1hcnkpO1xyXG59XHJcblxyXG5AbWVkaWEgKG1heC13aWR0aDo5OTZweCkge1xyXG4gIC5jYXJkIHtcclxuICAgIHdpZHRoOiA0N3Z3O1xyXG4gICAgdHJhbnNpdGlvbjogbm9uZTtcclxuICAgIG1pbi1oZWlnaHQ6IDEwMHB4O1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICB9XHJcbn1cclxuXHJcbkBtZWRpYSAobWF4LXdpZHRoOjcwMHB4KSB7XHJcbiAgLmNhcmQge1xyXG4gICAgd2lkdGg6IDg1dnc7XHJcbiAgICBtYXJnaW46IDE2cHggNHB4O1xyXG4gICAgdHJhbnNpdGlvbjogbm9uZTtcclxuICAgIG1pbi1oZWlnaHQ6IDEwMHB4O1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICB9XHJcbn1cclxuIl19 */"]
       });
       /*@__PURE__*/
 
@@ -1032,7 +1032,7 @@
           }
         },
         directives: [_theme_theme_directive__WEBPACK_IMPORTED_MODULE_1__["ThemeDirective"]],
-        styles: [".display-window[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100vh;\r\n  \r\n  background-color: var(--background);\r\n  background: linear-gradient(18deg, var(--carousel) 0%, var(--primary) 100%);\r\n  color: var(--on-primary);\r\n  text-align: center;\r\n  margin-bottom: 16px;\r\n}\r\n\r\n.title[_ngcontent-%COMP%] {\r\n  display: -moz-box;\r\n  display: flex;\r\n  -moz-box-orient: vertical;\r\n  -moz-box-direction: normal;\r\n       flex-direction: column;\r\n  margin: auto;\r\n  text-shadow: 0px 2px 2px var(--shadow);\r\n  font-size: 44pt;\r\n  padding-top: 110px;\r\n  color: var(--on-primary);\r\n}\r\n\r\n.bio[_ngcontent-%COMP%] {\r\n  display: -moz-box;\r\n  display: flex;\r\n  -moz-box-orient: vertical;\r\n  -moz-box-direction: normal;\r\n       flex-direction: column;\r\n  margin: auto;\r\n  text-shadow: 0px 0px 1px var(--shadow);\r\n  font-size: 18pt;\r\n  font-weight: 300;\r\n  padding-top: 40px;\r\n  color: var(--on-primary);\r\n}\r\n\r\n#caro-icon[_ngcontent-%COMP%] {\r\n  flex-wrap: wrap;\r\n  text-shadow: 0px 0px 1px var(--shadow);\r\n  font-size: 38pt;\r\n  font-weight: 300;\r\n  padding-top: 4px;\r\n  color: var(--on-primary);\r\n}\r\n\r\n@media (max-width: 600px) {\r\n  .display-window[_ngcontent-%COMP%] {\r\n    height: 90%;\r\n  }\r\n\r\n  .bio[_ngcontent-%COMP%] {\r\n    line-height: normal;\r\n    margin: 0 4px 0 4px;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJvdXNlbC9jYXJvdXNlbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUNBQW1DO0VBQ25DLDJFQUEyRTtFQUMzRSx3QkFBd0I7RUFDeEIsa0JBQWtCO0VBQ2xCLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGlCQUFhO0VBQWIsYUFBYTtFQUNiLHlCQUFzQjtFQUF0QiwwQkFBc0I7T0FBdEIsc0JBQXNCO0VBQ3RCLFlBQVk7RUFDWixzQ0FBc0M7RUFDdEMsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQix3QkFBd0I7QUFDMUI7O0FBRUE7RUFDRSxpQkFBYTtFQUFiLGFBQWE7RUFDYix5QkFBc0I7RUFBdEIsMEJBQXNCO09BQXRCLHNCQUFzQjtFQUN0QixZQUFZO0VBQ1osc0NBQXNDO0VBQ3RDLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsaUJBQWlCO0VBQ2pCLHdCQUF3QjtBQUMxQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixzQ0FBc0M7RUFDdEMsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsd0JBQXdCO0FBQzFCOztBQUVBO0VBQ0U7SUFDRSxXQUFXO0VBQ2I7O0VBRUE7SUFDRSxtQkFBbUI7SUFDbkIsbUJBQW1CO0VBQ3JCO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Nhcm91c2VsL2Nhcm91c2VsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZGlzcGxheS13aW5kb3cge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwdmg7XHJcbiAgLyogbWFyZ2luLXRvcDogMjBweDsgKi9cclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1iYWNrZ3JvdW5kKTtcclxuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMThkZWcsIHZhcigtLWNhcm91c2VsKSAwJSwgdmFyKC0tcHJpbWFyeSkgMTAwJSk7XHJcbiAgY29sb3I6IHZhcigtLW9uLXByaW1hcnkpO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBtYXJnaW4tYm90dG9tOiAxNnB4O1xyXG59XHJcblxyXG4udGl0bGUge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgdGV4dC1zaGFkb3c6IDBweCAycHggMnB4IHZhcigtLXNoYWRvdyk7XHJcbiAgZm9udC1zaXplOiA0NHB0O1xyXG4gIHBhZGRpbmctdG9wOiAxMTBweDtcclxuICBjb2xvcjogdmFyKC0tb24tcHJpbWFyeSk7XHJcbn1cclxuXHJcbi5iaW8ge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgdGV4dC1zaGFkb3c6IDBweCAwcHggMXB4IHZhcigtLXNoYWRvdyk7XHJcbiAgZm9udC1zaXplOiAxOHB0O1xyXG4gIGZvbnQtd2VpZ2h0OiAzMDA7XHJcbiAgcGFkZGluZy10b3A6IDQwcHg7XHJcbiAgY29sb3I6IHZhcigtLW9uLXByaW1hcnkpO1xyXG59XHJcblxyXG4jY2Fyby1pY29uIHtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgdGV4dC1zaGFkb3c6IDBweCAwcHggMXB4IHZhcigtLXNoYWRvdyk7XHJcbiAgZm9udC1zaXplOiAzOHB0O1xyXG4gIGZvbnQtd2VpZ2h0OiAzMDA7XHJcbiAgcGFkZGluZy10b3A6IDRweDtcclxuICBjb2xvcjogdmFyKC0tb24tcHJpbWFyeSk7XHJcbn1cclxuXHJcbkBtZWRpYSAobWF4LXdpZHRoOiA2MDBweCkge1xyXG4gIC5kaXNwbGF5LXdpbmRvdyB7XHJcbiAgICBoZWlnaHQ6IDkwJTtcclxuICB9XHJcblxyXG4gIC5iaW8ge1xyXG4gICAgbGluZS1oZWlnaHQ6IG5vcm1hbDtcclxuICAgIG1hcmdpbjogMCA0cHggMCA0cHg7XHJcbiAgfVxyXG59XHJcbiJdfQ== */"]
+        styles: [".display-window[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100vh;\r\n  \r\n  background-color: var(--background);\r\n  background: linear-gradient(18deg, var(--carousel) 0%, var(--primary) 100%);\r\n  color: var(--on-primary);\r\n  text-align: center;\r\n  margin-bottom: 8px;\r\n}\r\n\r\n.title[_ngcontent-%COMP%] {\r\n  display: -moz-box;\r\n  display: flex;\r\n  -moz-box-orient: vertical;\r\n  -moz-box-direction: normal;\r\n       flex-direction: column;\r\n  margin: auto;\r\n  text-shadow: 0px 2px 2px var(--shadow);\r\n  font-size: 44pt;\r\n  padding-top: 110px;\r\n  color: var(--on-primary);\r\n}\r\n\r\n.bio[_ngcontent-%COMP%] {\r\n  display: -moz-box;\r\n  display: flex;\r\n  -moz-box-orient: vertical;\r\n  -moz-box-direction: normal;\r\n       flex-direction: column;\r\n  margin: auto;\r\n  text-shadow: 0px 0px 1px var(--shadow);\r\n  font-size: 18pt;\r\n  font-weight: 300;\r\n  padding-top: 40px;\r\n  color: var(--on-primary);\r\n}\r\n\r\n#caro-icon[_ngcontent-%COMP%] {\r\n  flex-wrap: wrap;\r\n  text-shadow: 0px 0px 1px var(--shadow);\r\n  font-size: 38pt;\r\n  font-weight: 300;\r\n  padding-top: 4px;\r\n  color: var(--on-primary);\r\n}\r\n\r\n@media (max-width: 600px) {\r\n  .display-window[_ngcontent-%COMP%] {\r\n    height: 90%;\r\n  }\r\n\r\n  .bio[_ngcontent-%COMP%] {\r\n    line-height: normal;\r\n    margin: 0 4px 0 4px;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJvdXNlbC9jYXJvdXNlbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUNBQW1DO0VBQ25DLDJFQUEyRTtFQUMzRSx3QkFBd0I7RUFDeEIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGlCQUFhO0VBQWIsYUFBYTtFQUNiLHlCQUFzQjtFQUF0QiwwQkFBc0I7T0FBdEIsc0JBQXNCO0VBQ3RCLFlBQVk7RUFDWixzQ0FBc0M7RUFDdEMsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQix3QkFBd0I7QUFDMUI7O0FBRUE7RUFDRSxpQkFBYTtFQUFiLGFBQWE7RUFDYix5QkFBc0I7RUFBdEIsMEJBQXNCO09BQXRCLHNCQUFzQjtFQUN0QixZQUFZO0VBQ1osc0NBQXNDO0VBQ3RDLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsaUJBQWlCO0VBQ2pCLHdCQUF3QjtBQUMxQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixzQ0FBc0M7RUFDdEMsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsd0JBQXdCO0FBQzFCOztBQUVBO0VBQ0U7SUFDRSxXQUFXO0VBQ2I7O0VBRUE7SUFDRSxtQkFBbUI7SUFDbkIsbUJBQW1CO0VBQ3JCO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Nhcm91c2VsL2Nhcm91c2VsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZGlzcGxheS13aW5kb3cge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwdmg7XHJcbiAgLyogbWFyZ2luLXRvcDogMjBweDsgKi9cclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1iYWNrZ3JvdW5kKTtcclxuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMThkZWcsIHZhcigtLWNhcm91c2VsKSAwJSwgdmFyKC0tcHJpbWFyeSkgMTAwJSk7XHJcbiAgY29sb3I6IHZhcigtLW9uLXByaW1hcnkpO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBtYXJnaW4tYm90dG9tOiA4cHg7XHJcbn1cclxuXHJcbi50aXRsZSB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB0ZXh0LXNoYWRvdzogMHB4IDJweCAycHggdmFyKC0tc2hhZG93KTtcclxuICBmb250LXNpemU6IDQ0cHQ7XHJcbiAgcGFkZGluZy10b3A6IDExMHB4O1xyXG4gIGNvbG9yOiB2YXIoLS1vbi1wcmltYXJ5KTtcclxufVxyXG5cclxuLmJpbyB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB0ZXh0LXNoYWRvdzogMHB4IDBweCAxcHggdmFyKC0tc2hhZG93KTtcclxuICBmb250LXNpemU6IDE4cHQ7XHJcbiAgZm9udC13ZWlnaHQ6IDMwMDtcclxuICBwYWRkaW5nLXRvcDogNDBweDtcclxuICBjb2xvcjogdmFyKC0tb24tcHJpbWFyeSk7XHJcbn1cclxuXHJcbiNjYXJvLWljb24ge1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxuICB0ZXh0LXNoYWRvdzogMHB4IDBweCAxcHggdmFyKC0tc2hhZG93KTtcclxuICBmb250LXNpemU6IDM4cHQ7XHJcbiAgZm9udC13ZWlnaHQ6IDMwMDtcclxuICBwYWRkaW5nLXRvcDogNHB4O1xyXG4gIGNvbG9yOiB2YXIoLS1vbi1wcmltYXJ5KTtcclxufVxyXG5cclxuQG1lZGlhIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgLmRpc3BsYXktd2luZG93IHtcclxuICAgIGhlaWdodDogOTAlO1xyXG4gIH1cclxuXHJcbiAgLmJpbyB7XHJcbiAgICBsaW5lLWhlaWdodDogbm9ybWFsO1xyXG4gICAgbWFyZ2luOiAwIDRweCAwIDRweDtcclxuICB9XHJcbn1cclxuIl19 */"]
       });
       /*@__PURE__*/
 
@@ -1372,6 +1372,8 @@
       /*! @angular/material/menu */
       "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/menu.js");
 
+      var _c0 = ["menu"];
+
       function NavigationComponent_div_31_Template(rf, ctx) {
         if (rf & 1) {
           var _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
@@ -1458,7 +1460,7 @@
 
       function NavigationComponent_div_36_Template(rf, ctx) {
         if (rf & 1) {
-          var _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+          var _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
 
@@ -1522,62 +1524,62 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "mat-menu", 32, 33);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "button", 34);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_div_36_Template_button_click_23_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12);
-
-            var ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-
-            return ctx_r11.toggleTheme("light");
-          });
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "button", 35);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "button", 34);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_div_36_Template_button_click_24_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
 
-            var ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+            var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-            return ctx_r13.toggleTheme("dark");
+            return ctx_r12.toggleTheme("light");
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "button", 36);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "button", 35);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_div_36_Template_button_click_25_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
 
             var ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-            return ctx_r14.toggleTheme("green");
+            return ctx_r14.toggleTheme("dark");
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "button", 37);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "button", 36);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_div_36_Template_button_click_26_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
 
             var ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-            return ctx_r15.toggleTheme("blue");
+            return ctx_r15.toggleTheme("green");
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "button", 38);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "button", 37);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_div_36_Template_button_click_27_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
 
             var ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-            return ctx_r16.toggleTheme("red");
+            return ctx_r16.toggleTheme("blue");
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "button", 38);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_div_36_Template_button_click_28_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
+
+            var ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+            return ctx_r17.toggleTheme("red");
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1590,7 +1592,7 @@
         if (rf & 2) {
           var _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](10);
 
-          var _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](22);
+          var _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](23);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
 
@@ -1598,18 +1600,18 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matMenuTriggerFor", _r10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matMenuTriggerFor", _r11);
         }
       }
 
       function NavigationComponent_button_38_Template(rf, ctx) {
         if (rf & 1) {
-          var _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+          var _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 39);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_button_38_Template_button_click_0_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r18);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r19);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
@@ -1628,13 +1630,13 @@
         }
       }
 
-      var _c0 = function _c0(a0) {
+      var _c1 = function _c1(a0) {
         return {
           hidden: a0
         };
       };
 
-      var _c1 = ["*"];
+      var _c2 = ["*"];
 
       var NavigationComponent = /*#__PURE__*/function () {
         function NavigationComponent(breakpointObserver, themeService) {
@@ -1671,13 +1673,24 @@
       NavigationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: NavigationComponent,
         selectors: [["app-navigation"]],
-        ngContentSelectors: _c1,
+        viewQuery: function NavigationComponent_Query(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstaticViewQuery"](_c0, true);
+          }
+
+          if (rf & 2) {
+            var _t;
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.menu = _t.first);
+          }
+        },
+        ngContentSelectors: _c2,
         decls: 41,
         vars: 21,
-        consts: [["theme", "", 1, "sidenav-container"], ["fixedInViewport", "false", "position", "end", 1, "sidenav", 3, "ngClass", "mode", "opened"], ["drawer", ""], [1, "spacer"], [3, "click"], [1, "theming"], ["id", "light", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["id", "dark", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["id", "green", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["id", "blue", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["id", "red", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["mat-list-item", "", "routerLink", "/", 1, "sidenav-button", 3, "click"], ["mat-list-item", "", "routerLink", "/about", 1, "sidenav-button", 3, "click"], ["mat-list-item", "", "routerLink", "/contact", 1, "sidenav-button", 3, "click"], ["id", "subtitle", 1, "sidenav-button", 3, "click"], [4, "ngIf"], ["theme", ""], ["src", "../../../../assets/svg/folio-logo.svg", "routerLink", "/", 1, "logo"], ["type", "button", "aria-label", "Toggle sidenav", "mat-icon-button", "", 3, "click", 4, "ngIf"], ["mat-list-item", "", "routerLink", "/diss", 1, "sidenav-button", "project", 3, "click"], ["mat-list-item", "", "routerLink", "/", 1, "sidenav-button", "project", 3, "click"], ["mat-button", "", "routerLink", "/", 1, "menu-button"], ["mat-button", "", "routerLink", "/about", "routerLinkActive", "active", 1, "menu-button"], ["mat-button", "", "routerLink", "/contact", "routerLinkActive", "active", 1, "menu-button"], ["mat-button", "", 1, "menu-button", 3, "matMenuTriggerFor"], ["yPosition", "below"], ["belowMenu", "matMenu"], ["mat-menu-item", "", "routerLink", "/diss", "routerLinkActive", "active"], ["mat-menu-item", "", "routerLink", "/listify", "routerLinkActive", "active"], ["mat-menu-item", "", "routerLink", "/virtual-reality", "routerLinkActive", "active"], ["mat-menu-item", "", "routerLink", "/serious-games", "routerLinkActive", "active"], ["src", "../../../../assets/svg/color_lens.svg"], ["yPosition", "below", 1, "theme-toggle-desktop-container"], ["themeMenu", "matMenu"], ["mat-menu-item", "", "id", "light", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["mat-menu-item", "", "id", "dark", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["mat-menu-item", "", "id", "green", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["mat-menu-item", "", "id", "blue", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["mat-menu-item", "", "id", "red", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["type", "button", "aria-label", "Toggle sidenav", "mat-icon-button", "", 3, "click"], ["aria-label", "Side nav toggle icon"]],
+        consts: [["theme", "", 1, "sidenav-container"], ["fixedInViewport", "false", "position", "end", 1, "sidenav", 3, "ngClass", "mode", "opened"], ["drawer", ""], [1, "spacer"], [3, "click"], [1, "theming"], ["id", "light", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["id", "dark", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["id", "green", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["id", "blue", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["id", "red", "aria-label", "theme-toggle", 1, "theme-toggle", 3, "click"], ["mat-list-item", "", "routerLink", "/", 1, "sidenav-button", 3, "click"], ["mat-list-item", "", "routerLink", "/about", 1, "sidenav-button", 3, "click"], ["mat-list-item", "", "routerLink", "/contact", 1, "sidenav-button", 3, "click"], ["id", "subtitle", 1, "sidenav-button", 3, "click"], [4, "ngIf"], ["theme", ""], ["src", "../../../../assets/svg/folio-logo.svg", "routerLink", "/", 1, "logo"], ["type", "button", "aria-label", "Toggle sidenav", "mat-icon-button", "", 3, "click", 4, "ngIf"], ["mat-list-item", "", "routerLink", "/diss", 1, "sidenav-button", "project", 3, "click"], ["mat-list-item", "", "routerLink", "/", 1, "sidenav-button", "project", 3, "click"], ["mat-button", "", "routerLink", "/", 1, "menu-button"], ["mat-button", "", "routerLink", "/about", "routerLinkActive", "active", 1, "menu-button"], ["mat-button", "", "routerLink", "/contact", "routerLinkActive", "active", 1, "menu-button"], ["mat-button", "", 1, "menu-button", 3, "matMenuTriggerFor"], ["yPosition", "below"], ["belowMenu", "matMenu"], ["mat-menu-item", "", "routerLink", "/diss", "routerLinkActive", "active"], ["mat-menu-item", "", "routerLink", "/listify", "routerLinkActive", "active"], ["mat-menu-item", "", "routerLink", "/virtual-reality", "routerLinkActive", "active"], ["mat-menu-item", "", "routerLink", "/serious-games", "routerLinkActive", "active"], ["src", "../../../../assets/svg/color_lens.svg"], ["yPosition", "below", 1, "theme-toggle-desktop-container"], ["menu", "matMenu", "themeMenu", "matMenu"], ["mat-menu-item", "", "id", "light", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["mat-menu-item", "", "id", "dark", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["mat-menu-item", "", "id", "green", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["mat-menu-item", "", "id", "blue", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["mat-menu-item", "", "id", "red", "aria-label", "theme-toggle", 1, "theme-toggle-desktop", 3, "click"], ["type", "button", "aria-label", "Toggle sidenav", "mat-icon-button", "", 3, "click"], ["aria-label", "Side nav toggle icon"]],
         template: function NavigationComponent_Template(rf, ctx) {
           if (rf & 1) {
-            var _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+            var _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojectionDef"]();
 
@@ -1702,7 +1715,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "mat-icon", 4);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_Template_mat_icon_click_10_listener() {
-              _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r19);
+              _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r20);
 
               var _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](2);
 
@@ -1764,7 +1777,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 11);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_Template_a_click_19_listener() {
-              _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r19);
+              _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r20);
 
               var _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](2);
 
@@ -1780,7 +1793,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 12);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_Template_a_click_22_listener() {
-              _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r19);
+              _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r20);
 
               var _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](2);
 
@@ -1796,7 +1809,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 13);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_Template_a_click_25_listener() {
-              _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r19);
+              _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r20);
 
               var _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](2);
 
@@ -1835,7 +1848,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "span", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](36, NavigationComponent_div_36_Template, 28, 2, "div", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](36, NavigationComponent_div_36_Template, 29, 2, "div", 15);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](37, "async");
 
@@ -1855,7 +1868,7 @@
           if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](19, _c0, !_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 7, ctx.isHandset$)))("mode", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 11, ctx.isHandset$) ? "over" : "side")("opened", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](6, 13, ctx.isHandset$) === false);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](19, _c1, !_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 7, ctx.isHandset$)))("mode", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 11, ctx.isHandset$) ? "over" : "side")("opened", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](6, 13, ctx.isHandset$) === false);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("role", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](4, 9, ctx.isHandset$) ? "dialog" : "navigation");
 
@@ -1934,7 +1947,14 @@
           }, {
             type: src_app_theme__WEBPACK_IMPORTED_MODULE_4__["ThemeService"]
           }];
-        }, null);
+        }, {
+          menu: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+            args: ['menu', {
+              "static": true
+            }]
+          }]
+        });
       })();
       /***/
 
@@ -2757,7 +2777,7 @@
           '--surface': '#fff',
           '--on-surface': '#333',
           '--shadow': '#777',
-          '--card-overlay': '#EECD02DD',
+          '--card-overlay': '#EECD02EE',
           '--carousel': '#EECD0260'
         }
       };

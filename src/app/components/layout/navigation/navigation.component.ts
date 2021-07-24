@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { trigger, transition, style, animate, keyframes, query, stagger } from '@angular/animations';
 import { ThemeService } from 'src/app/theme';
+import { MatMenu } from '@angular/material/menu';
 
 @Component({
   selector: 'app-navigation',
@@ -45,6 +46,7 @@ import { ThemeService } from 'src/app/theme';
   ]
 })
 export class NavigationComponent {
+  @ViewChild('menu', {static: true}) menu: MatMenu
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
@@ -63,7 +65,6 @@ export class NavigationComponent {
 
 
   toggleTheme(theme: string) {
-
     this.themeService.setTheme(theme);
   }
 
