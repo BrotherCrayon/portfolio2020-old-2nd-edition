@@ -14,7 +14,7 @@ export const lightTheme: Theme = {
         '--surface': '#fff',
         '--on-surface': '#333',
         '--shadow': '#777',
-        '--card-overlay': '#EECD02DD',
+        '--card-overlay': '#EECD02EE',
         '--carousel': '#EECD0260'
     }
 };

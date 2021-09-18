@@ -1,4 +1,6 @@
 <app-navigation>
-  <router-outlet id="body-container"></router-outlet>
-  <app-footer id="footer-container"></app-footer>
-</app-navigation>
+    <div [@routeAnimations]="prepareRoute(outlet)">
+    <router-outlet id="body-container" #outlet="outlet"></router-outlet>
+    <app-footer id="footer-container"></app-footer>
+  </div>
+  </app-navigation>
